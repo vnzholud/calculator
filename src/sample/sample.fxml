@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <TextField fx:id="mainTextField"/>
+
+    <GridPane hgap="5" prefHeight="158.0" prefWidth="173.0" vgap="5">
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick"  prefWidth="60.0" text="+/-" GridPane.columnIndex="1" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClickAC" prefWidth="60.0" text="AC" textAlignment="CENTER" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick" prefWidth="60.0" text="\%" textAlignment="CENTER" GridPane.columnIndex="2" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClickDel" prefWidth="60.0" text="/" textAlignment="CENTER" GridPane.columnIndex="3" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick7"  prefWidth="60.0" text="7" textAlignment="CENTER" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick8" prefWidth="60.0" text="8" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick9" prefWidth="60.0" text="9" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClickUmn" prefWidth="60.0" text="x" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick4" prefWidth="60.0" text="4" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick5" prefWidth="60.0" text="5" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick6" prefWidth="60.0" text="6" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#Min" prefWidth="60.0" text="-" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick1" prefWidth="60.0" text="1" textAlignment="CENTER" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick2" prefWidth="60.0" text="2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick3" prefWidth="60.0" text="3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClickSum" prefWidth="60.0" text="+" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClick0" prefWidth="60.0" text="0" GridPane.rowIndex="5" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClickZ" prefWidth="60.0" text="," textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Button mnemonicParsing="false" prefHeight="25.0" onAction="#butClickRez" prefWidth="60.0" text="=" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <columnConstraints>
+         <ColumnConstraints maxWidth="90.0" minWidth="10.0" prefWidth="40.0" />
+         <ColumnConstraints maxWidth="90.0" minWidth="10.0" prefWidth="40.0" />
+         <ColumnConstraints maxWidth="90.0" minWidth="10.0" prefWidth="40.0" />
+         <ColumnConstraints maxWidth="90.0" minWidth="10.0" prefWidth="40.0" />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" />
+         <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      </rowConstraints>
+
+    </GridPane>
+
+<!--
+    <TextField fx:id="textField"/>
+    <TextArea  fx:id="textArea" />
+-->
+
+
+
+
+</VBox>
